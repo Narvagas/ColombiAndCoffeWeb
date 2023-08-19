@@ -29,6 +29,26 @@ To get started, clone this repository to your local machine:
 git clone https://github.com/your-username/colombi-coffee.git
 ```
 
+## Usage
+1. Navigate to the repository's root directory.
+2. Install the necessary dependencies:
+
+```bash
+npm install
+```
+
+1. Start the development server:
+```bash
+npm start
+```
+1. Open your web browser and go to http://localhost:3000 to view the website.
+
+## Contributing
+We welcome contributions from the community! If you'd like to contribute, please follow our contribution guidelines.
+
+## License
+This project is licensed under the MIT License.
+
 
 
 # Getting Started with Create React App
