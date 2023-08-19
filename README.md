@@ -29,8 +29,6 @@ To get started, clone this repository to your local machine:
 git clone https://github.com/your-username/colombi-coffee.git
 
 
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
