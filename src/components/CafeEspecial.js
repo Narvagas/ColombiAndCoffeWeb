@@ -16,7 +16,7 @@ function CafeEspecial() {
       title: 'Café Especial 3',
       description: 'Descripción del café especial 3...',
     },
-    // Agrega más tipos de café especial aquí
+    
   ];
 
   return (

@@ -16,7 +16,7 @@ function RegalosOfertas() {
       title: 'Regalo 1',
       description: 'Descripción del regalo 1...',
     },
-    // Agrega más ofertas y regalos aquí
+    
   ];
 
   return (

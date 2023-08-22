@@ -17,7 +17,7 @@ function CafeTradicional() {
       title: 'Café Tradicional 3',
       description: 'Descripción del café tradicional 3...',
     },
-    // Agrega más tipos de café tradicional aquí
+    
   ];
 
   return (

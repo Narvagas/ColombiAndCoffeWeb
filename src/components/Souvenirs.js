@@ -16,7 +16,7 @@ function Souvenirs() {
       title: 'Souvenir 3',
       description: 'Descripción del souvenir 3...',
     },
-    // Agrega más souvenirs aquí
+    
   ];
 
   return (

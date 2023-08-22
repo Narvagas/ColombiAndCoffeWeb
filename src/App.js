@@ -33,7 +33,7 @@ function App() {
         </Routes>
         <CafeSpecialSection />
         <InfoSection />
-        {/* <BrandsCarousel /> */}
+        <BrandsCarousel /> 
         <BlogSection />
         <TestimonialsCarousel />
         <ContactCTASection />

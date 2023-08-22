@@ -1,4 +1,3 @@
-/* BlogSection.css */
 .blog-section {
   text-align: center;
   padding: 1px;
@@ -15,7 +14,7 @@
   align-items: center;
   padding: 20px;
   border: 1px solid #008E9B;
-  background-color: #845EC2;
+  background-color: #c5b0e6;
   transition: transform 0.3s ease-in-out;
   width: 100%;
   max-width: 800px;

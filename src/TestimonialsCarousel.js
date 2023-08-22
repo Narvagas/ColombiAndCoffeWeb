@@ -21,7 +21,7 @@ function TestimonialsCarousel() {
       testimonial: 'La calidad y frescura del café es inigualable. Mi lugar favorito para comprar café.',
       image: imagen3,
     },
-    // Agrega más testimonios aquí
+    
   ];
 
   return (

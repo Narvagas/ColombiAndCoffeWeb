@@ -21,7 +21,7 @@ function CafeSpecialSection() {
       description: 'Descripción del café especial 3.',
       image: cafe3,
     },
-    // Agrega más tipos de café especial aquí
+    
   ];
 
   return (

@@ -19,7 +19,7 @@ function Suscripciones() {
       description: 'Descripción de la opción de suscripción 3...',
       price: '$39.99/mes',
     },
-    // Agrega más opciones de suscripción aquí
+    
   ];
 
   return (

@@ -1,17 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './stylesheets/Header.css'; // Importar el archivo de estilos
-import { FaSearch } from 'react-icons/fa'; // Importar el icono de lupa
+import './stylesheets/Header.css'; 
+import { FaSearch } from 'react-icons/fa'; 
 
 function Header() {
   return (
-    <header className="header-container"> {/* Agregar la clase CSS para el contenedor del encabezado */}
+    <header className="header-container"> 
       <div className="header-title">Colombian&Coffee</div> 
       <nav>
         <div className="search-icon">
           <FaSearch />
         </div>
-        <ul className="nav-list"> {/* Agregar la clase CSS para la lista de navegación */}
+        <ul className="nav-list"> 
           <li><Link to="/">INICIO</Link></li>
           <li><Link to="/cafe-tradicional">CAFÉ TRADICIONAL</Link></li>
           <li><Link to="/cafe-especial">CAFÉ ESPECIAL</Link></li>
@@ -21,7 +21,7 @@ function Header() {
           <li><Link to="/suscripciones">SUSCRIPCIONES</Link></li>
         </ul>
       </nav>
-      {/* Agrega la sección de búsqueda aquí */}
+      {/* Agregar la sección de búsqueda aquí */}
     </header>
   );
 }

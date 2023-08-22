@@ -17,7 +17,7 @@ function Blog() {
       title: 'Título del Artículo 3',
       content: 'Contenido del artículo 3...',
     },
-    // Agrega más artículos aquí
+    
   ];
 
   return (

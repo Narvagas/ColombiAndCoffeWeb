@@ -23,7 +23,7 @@ function BlogSection() {
       content: 'Descubriendo los Sabores de los Cafés artesanales...',
       image: imagen3,
     },
-    // Agrega más artículos aquí
+    
   ];
 
   return (
