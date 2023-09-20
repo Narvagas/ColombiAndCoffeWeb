@@ -1,6 +1,7 @@
 import React from 'react';
-import Header from '../Header';
+// import Header from '../Header';
 import Footer from '../Footer';
+import '../stylesheets/RegalosOfertas.css'
 
 function RegalosOfertas() {
   const regalosOfertas = [
@@ -21,7 +22,7 @@ function RegalosOfertas() {
 
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <section className="regalos-ofertas-page">
         <h2>Ofertas y Regalos</h2>
         <div className="regalos-ofertas-items">

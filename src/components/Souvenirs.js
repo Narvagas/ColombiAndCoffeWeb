@@ -1,6 +1,7 @@
 import React from 'react';
-import Header from '../Header';
+// import Header from '../Header';
 import Footer from '../Footer';
+import '../stylesheets/Souvenirs.css'
 
 function Souvenirs() {
   const souvenirsList = [
@@ -21,7 +22,7 @@ function Souvenirs() {
 
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <section className="souvenirs-page">
         <h2>Souvenirs</h2>
         <div className="souvenirs-list">

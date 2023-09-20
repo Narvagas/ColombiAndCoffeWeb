@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../Header';
+// import Header from '../Header';
 import BlogArticle from './BlogArticle'; 
 import Footer from '../Footer';
 
@@ -22,9 +22,9 @@ function Blog() {
 
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <section className="blog-page">
-        <h2>Nuestro Blog</h2>
+        <h2 style={{ textAlign: 'center' }}>Nuestro Blog</h2>
         <div className="blog-articles">
           {blogArticles.map((article, index) => (
             <BlogArticle key={index} title={article.title} content={article.content} />

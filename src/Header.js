@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 import { Link } from 'react-router-dom';
-import './stylesheets/Header.css'; 
-import { FaSearch } from 'react-icons/fa'; 
+import { FaSearch, FaUser } from 'react-icons/fa';
+import './stylesheets/Header.css';
+
 
 function Header() {
+
   return (
     <header className="header-container"> 
       <div className="header-title">Colombian&Coffee</div> 
@@ -19,9 +21,16 @@ function Header() {
           <li><Link to="/regalos-ofertas">REGALOS Y OFERTAS</Link></li>
           <li><Link to="/blog">BLOG</Link></li>
           <li><Link to="/suscripciones">SUSCRIPCIONES</Link></li>
+          
         </ul>
+        
       </nav>
-      {/* Agregar la sección de búsqueda aquí */}
+      <div className="register-icon">
+          {/* Usa Link para redirigir al usuario a la página de registro */}
+          <Link to="/register">
+            <FaUser />
+          </Link>
+        </div>
     </header>
   );
 }

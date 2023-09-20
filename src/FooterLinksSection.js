@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './stylesheets/FooterLinksSection.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
@@ -34,7 +35,8 @@ function FooterLinksSection() {
             <h2>Menú principal</h2>
             <ul>
               {mainMenuLinks.map((link, index) => (
-                <li key={index}><a href="#">{link}</a></li>
+                <li key={index}><Link to="/register"></Link>
+                </li>
               ))}
             </ul>
           </div>
@@ -44,7 +46,8 @@ function FooterLinksSection() {
             <h2>Aprende más</h2>
             <ul>
               {learnMoreLinks.map((link, index) => (
-                <li key={index}><a href="#">{link}</a></li>
+                <li key={index}><Link to="/register"></Link>
+                </li>
               ))}
             </ul>
           </div>
@@ -55,9 +58,9 @@ function FooterLinksSection() {
             <ul>
               {socialLinks.map((link, index) => (
                 <li key={index}>
-                  <a href="#">
+                  <Link to="/register">  
                     <FontAwesomeIcon icon={link.icon} /> {link.name}
-                  </a>
+                    </Link>
                 </li>
               ))}
             </ul>

@@ -1,6 +1,7 @@
 import React from 'react';
-import Header from '../Header';
+// import Header from '../Header';
 import Footer from '../Footer';
+import '../stylesheets/Suscripciones.css'
 
 function Suscripciones() {
   const suscripcionesOptions = [
@@ -24,7 +25,7 @@ function Suscripciones() {
 
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <section className="suscripciones-page">
         <h2>Opciones de Suscripción</h2>
         <div className="suscripciones-options">

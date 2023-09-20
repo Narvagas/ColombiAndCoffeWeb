@@ -1,6 +1,7 @@
 import React from 'react';
-import Header from '../Header';
+// import Header from '../Header';
 import Footer from '../Footer';
+import '../stylesheets/CafeEspecial.css'
 
 function CafeEspecial() {
   const cafeSpecials = [
@@ -21,7 +22,7 @@ function CafeEspecial() {
 
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <section className="cafe-especial-page">
         <h2>Cafés Especiales</h2>
         <div className="cafe-specials-details">

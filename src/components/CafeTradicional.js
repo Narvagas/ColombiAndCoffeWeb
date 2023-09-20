@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../Header';
+// import Header from '../Header';
 import Footer from '../Footer';
 import '../stylesheets/CafeTradicional.css'
 
@@ -22,7 +22,7 @@ function CafeTradicional() {
 
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <section className="cafe-tradicional-page">
         <h2>Cafés Tradicionales</h2>
         <div className="cafe-tradicional-types">

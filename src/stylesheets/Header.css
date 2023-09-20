@@ -88,3 +88,9 @@ li a {
     transform: translateX(-50%);
     z-index: 2; /* Colocar el título por encima del panel de navegación */
   }
+
+  .register-icon {
+    padding: 35px;
+    margin-left: 1150px; 
+    font-size: 24px; 
+  }

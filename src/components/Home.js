@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../Header';
+// import Header from '../Header';
 import CafeSpecialSection from '../CafeSpecialSection';
 import InfoSection from '../InfoSection';
 import BrandsCarousel from '../BrandsCarousel';
@@ -11,7 +11,7 @@ import Footer from '../Footer';
 function Home() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <CafeSpecialSection />
       <InfoSection />
       <BrandsCarousel />
